@@ -1,0 +1,22 @@
+{
+    "name": "Adapt-accessibilitystatement",
+    "version": "0.0.1",
+    "framework": ">=1.1.2",
+    "displayName": "Adapt-accessibilitystatement",
+    "extension": "Adapt-accessibilitystatement",
+    "targetAttribute": "_Adapt-accessibilitystatement",
+    "description": "Plugin to automatically display an accessibility statement popup at course start.",
+    "main": "/js/adapt-mathJax.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-extension"
+    ],
+    "authors": [
+        ""
+    ],
+    "pluginDependencies": {
+        "adapt-esdc-i18n": ">=0.0.1"
+    },
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/MeD-DMC/adapt-esdc-accessibility-statement"
+}

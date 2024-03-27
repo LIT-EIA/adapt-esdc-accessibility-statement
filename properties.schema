@@ -1,0 +1,47 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "id": "http://jsonschema.net",
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "properties": {
+        "course": {
+          "type": "object",
+          "properties": {
+            "_Adapt-accessibilitystatement": {
+              "type": "object",
+              "legend": "Accessibility Statement",
+              "properties": {
+                "_accessibilityStatement": {
+                  "type": "object",
+                  "required": false,
+                  "title": "Extra options",
+                  "properties": {
+                    "_statementEnabled": {
+                      "type": "boolean",
+                      "required": true,
+                      "default": true,
+                      "title": "Enable accessibility statement",
+                      "inputType": "Checkbox",
+                      "validators": [],
+                      "help": "If enabled, an accessibility statement will be automatically displayed on the menu page"
+                    },
+                    "_customSection": {
+                      "type": "TextArea",
+                      "required": false,
+                      "title": "Custom Section",
+                      "inputType": "TextArea",
+                      "validators": [],
+                      "help": "This text will be displayed in the accessibility statement as extra considerations"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
