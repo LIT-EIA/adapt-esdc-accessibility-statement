@@ -6,7 +6,7 @@
     "extension": "Adapt-accessibilitystatement",
     "targetAttribute": "_Adapt-accessibilitystatement",
     "description": "Plugin to automatically display an accessibility statement popup at course start.",
-    "main": "/js/adapt-mathJax.js",
+    "main": "/js/adapt-loader.js",
     "keywords": [
         "adapt-plugin",
         "adapt-extension"
