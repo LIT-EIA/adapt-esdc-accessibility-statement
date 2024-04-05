@@ -16,12 +16,12 @@
                 "_accessibilityStatement": {
                   "type": "object",
                   "required": false,
-                  "title": "Extra options",
+                  "title": "Options",
                   "properties": {
                     "_statementEnabled": {
                       "type": "boolean",
                       "required": true,
-                      "default": true,
+                      "default": false,
                       "title": "Enable accessibility statement",
                       "inputType": "Checkbox",
                       "validators": [],
@@ -30,10 +30,19 @@
                     "_customSection": {
                       "type": "TextArea",
                       "required": false,
-                      "title": "Custom Section",
+                      "title": "Course-specific considerations",
                       "inputType": "TextArea",
                       "validators": [],
                       "help": "This text will be displayed in the accessibility statement as extra considerations"
+                    },
+                    "_sabaProfile": {
+                      "type": "string",
+                      "required": true,
+                      "title": "Saba Profile Link",
+                      "default": "",
+                      "inputType": "Text",
+                      "validators": ["urlSaba"],
+                      "help": "Use this field to link to your Saba Profile in the contact section of the statement"
                     }
                   }
                 }
