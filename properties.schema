@@ -25,7 +25,7 @@
                       "title": "Enable accessibility statement",
                       "inputType": "Checkbox",
                       "validators": [],
-                      "help": "If enabled, an accessibility statement will be automatically displayed on the menu page"
+                      "help": "If enabled, an accessibility statement will be automatically displayed at course landing page."
                     },
                     "_customSection": {
                       "type": "TextArea",
@@ -33,7 +33,7 @@
                       "title": "Course-specific considerations",
                       "inputType": "TextArea",
                       "validators": [],
-                      "help": "This text will be displayed in the accessibility statement as extra considerations"
+                      "help": "This text will be displayed in the accessibility statement as extra considerations."
                     },
                     "_sabaProfile": {
                       "type": "string",
@@ -42,7 +42,7 @@
                       "default": "",
                       "inputType": "Text",
                       "validators": ["urlSaba"],
-                      "help": "Use this field to link to your Saba Profile in the contact section of the statement"
+                      "help": "Use this field to link to your Saba Profile in the contact section of the statement."
                     }
                   }
                 }
