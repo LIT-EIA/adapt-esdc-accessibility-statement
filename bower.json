@@ -1,6 +1,6 @@
 {
     "name": "Adapt-accessibilitystatement",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "framework": ">=1.1.2",
     "displayName": "Adapt-accessibilitystatement",
     "extension": "Adapt-accessibilitystatement",
